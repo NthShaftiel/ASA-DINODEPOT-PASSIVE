@@ -654,11 +654,11 @@
                         {
 							"bpPath": "/TheSunkenWorldAdditions/Assets/Weapons/WeapHarpoonUrchin/PrimalItemAmmo_UrchinBolt.PrimalItemAmmo_UrchinBolt",
 							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 0,
+							"maxQuantityInTerminal": 500,
 							"quantityPerDino": 1,
 							"alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
+                      				        "alternateItemsChance": 0.0,
+                            				"alternateItems": [],
 							"comsumesSelectMode": 0,
 							"consumesItemsChance": 0,
 							"consumesItems": []
@@ -666,9 +666,9 @@
                     ]
                 },
                 {
-                "intervalSeconds": 480.0,
-				"itemSelectMode": 0,
-                "items":
+                	"intervalSeconds": 480.0,
+			"itemSelectMode": 0,
+                	"items":
                     [
                         {
 							"bpPath": "/TheSunkenWorldAdditions/Assets/Blueprints/PrimalItemConsumables/PrimalItemConsumable_UrchinRoe.PrimalItemConsumable_UrchinRoe",
@@ -676,8 +676,8 @@
 							"maxQuantityInTerminal": 0,
 							"quantityPerDino": 1,
 							"alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
+                         			 	"alternateItemsChance": 0.0,
+                            				"alternateItems": [],
 							"comsumesSelectMode": 0,
 							"consumesItemsChance": 0,
 							"consumesItems": []
@@ -689,12 +689,12 @@
         {
         "dinoType": "/PrehistoricBeasts3/Axelrodichthys/BPs/Axelrodichthys_Character_BP.Axelrodichthys_Character_BP",
 		"chanceToProduce": 1.0,
-        "produces":
+        	"produces":
             [
                 {
-                "intervalSeconds": 180.0,
-				"itemSelectMode": 0,
-                "items":
+                	"intervalSeconds": 180.0,
+			"itemSelectMode": 0,
+                	"items":
                     [
                         {
 							"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon",
@@ -702,8 +702,8 @@
 							"maxQuantityInTerminal": 0,
 							"quantityPerDino": 1,
 							"alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
+                            				"alternateItemsChance": 0.0,
+                            				"alternateItems": [],
 							"comsumesSelectMode": 0,
 							"consumesItemsChance": 0,
 							"consumesItems": []
@@ -715,12 +715,12 @@
         {
         "dinoType": "/PrehistoricBeasts2/Baculites/BPs/Baculites_Character_BP.Baculites_Character_BP",
 		"chanceToProduce": 1.0,
-        "produces":
+        	"produces":
             [
                 {
-                "intervalSeconds": 240.0,
-				"itemSelectMode": 0,
-                "items":
+                	"intervalSeconds": 240.0,
+			"itemSelectMode": 0,
+                	"items":
                     [
                         {
 							"bpPath": "/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil",
@@ -728,8 +728,8 @@
 							"maxQuantityInTerminal": 0,
 							"quantityPerDino": 1,
 							"alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
+                            				"alternateItemsChance": 0.0,
+                            				"alternateItems": [],
 							"comsumesSelectMode": 0,
 							"consumesItemsChance": 0,
 							"consumesItems": []
@@ -737,6 +737,61 @@
                     ]
                 }
             ]
-        }
+        },
+	{
+            "dinoType": "Blueprint'/NoUntameables/Leedsichthys/Leedsichthys_Character_BP_Tameable.Leedsichthys_Character_BP_Tameable'",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 180,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat_Fish.PrimalItemConsumable_RawMeat_Fish'",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 3,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0.05,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat_Fish.PrimalItemConsumable_RawPrimeMeat_Fish'",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
+                            "consumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP.Sheep_Character_BP'",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 450,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wool.PrimalItemResource_Wool'",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0.5,
+                            "alternateItems": [],
+                            "consumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                }
+            ]
+        }	    
     ]
 }
