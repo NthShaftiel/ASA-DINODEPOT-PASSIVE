@@ -850,7 +850,31 @@
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
                             "alternateSelectMode": 0,
-                            "alternateItemsChance": 0.5,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "consumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                }
+            ]
+        },
+	{
+            "dinoType": "/PrehistoricBeasts4/Venenosaurus/BPs/Venenosaurus_Character_BP.Venenosaurus_Character_BP",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 300,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/PrehistoricBeasts4/Venenosaurus/BPs/PrimalItemConsumable_VenenoNarco.PrimalItemConsumable_VenenoNarco",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 500,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
                             "alternateItems": [],
                             "consumesSelectMode": 0,
                             "consumesItemsChance": 0,
