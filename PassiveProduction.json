@@ -295,7 +295,7 @@
                         {
                             "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Fertilizer_Compost.PrimalItemConsumable_Fertilizer_Compost",
                             "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
+                            "maxQuantityInTerminal": 150,
                             "quantityPerDino": 1,
                             "alternateSelectMode": 0,
                             "alternateItemsChance": 0.0,
@@ -381,7 +381,7 @@
                         {
                             "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Fertilizer_Compost.PrimalItemConsumable_Fertilizer_Compost",
                             "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
+                            "maxQuantityInTerminal": 150,
                             "quantityPerDino": 1,
                             "alternateSelectMode": 0,
                             "alternateItemsChance": 0.0,
@@ -518,19 +518,19 @@
         {
         "dinoType": "/NoUntameables/Ammonite/Ammonite_Character_Tameable.Ammonite_Character_Tameable",
 		"chanceToProduce": 1.0,
-        "produces":[
-            {
+        	"produces":[
+            		{
 					"intervalSeconds": 180.0,
 					"itemSelectMode": 0,
 					"items":[
 						{
 							"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AmmoniteBlood.PrimalItemResource_AmmoniteBlood",
 							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 0,
+							"maxQuantityInTerminal": 2000,
 							"quantityPerDino": 1,
 							"alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
+                            				"alternateItemsChance": 0.0,
+                            				"alternateItems": [],
 							"comsumesSelectMode": 0,
 							"consumesItemsChance": 0,
 							"consumesItems": []
@@ -542,7 +542,7 @@
         {
         "dinoType": "/Eocarcharia-TA/Content/TA_Eocarch/Eocarcharia_TA_Chartacter_BP_C.Eocarcharia_TA_Chartacter_BP_C",
 		"chanceToProduce": 1.0,
-        "produces":
+        	"produces":
             [
                 {
                 "intervalSeconds": 300.0,
@@ -550,61 +550,61 @@
                 "items":
                     [
                         {
-							"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
+					"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
 							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 0,
+							"maxQuantityInTerminal": 500,
 							"quantityPerDino": 1,
 							"alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
+                            				"alternateItemsChance": 0.0,
+                            				"alternateItems": [],
 							"comsumesSelectMode": 0,
 							"consumesItemsChance": 0,
 							"consumesItems": []
                         },
-						{
-							"bpPath": "/Eocarcharia-TA/Content/TA_Eocarch/Mushrooms/Mushroom_Crafts/PrimalItemResource_RedMushroom.PrimalItemResource_RedMushroom",
+			{
+					"bpPath": "/Eocarcharia-TA/Content/TA_Eocarch/Mushrooms/Mushroom_Crafts/PrimalItemResource_RedMushroom.PrimalItemResource_RedMushroom",
 							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 0,
+							"maxQuantityInTerminal": 500,
 							"quantityPerDino": 1,
 							"alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
-							"comsumesSelectMode": 0,
-							"consumesItemsChance": 0,
-							"consumesItems": []
-                        },
-                        {
-							"bpPath": "/Eocarcharia-TA/Content/TA_Eocarch/Mushrooms/Mushroom_Crafts/PrimalItemResource_BlueMushroom.PrimalItemResource_BlueMushroom",
-							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 0,
-							"quantityPerDino": 1,
-							"alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
+                            				"alternateItemsChance": 0.0,
+				                        "alternateItems": [],
 							"comsumesSelectMode": 0,
 							"consumesItemsChance": 0,
 							"consumesItems": []
                         },
                         {
-							"bpPath": "/Eocarcharia-TA/Content/TA_Eocarch/Mushrooms/Mushroom_Crafts/PrimalItemResource_GreenMushroom.PrimalItemResource_GreenMushroom",
+					"bpPath": "/Eocarcharia-TA/Content/TA_Eocarch/Mushrooms/Mushroom_Crafts/PrimalItemResource_BlueMushroom.PrimalItemResource_BlueMushroom",
 							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 0,
+							"maxQuantityInTerminal": 500,
 							"quantityPerDino": 1,
 							"alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
+			                            	"alternateItemsChance": 0.0,
+			                            	"alternateItems": [],
 							"comsumesSelectMode": 0,
 							"consumesItemsChance": 0,
 							"consumesItems": []
                         },
-						{
-							"bpPath": "/Eocarcharia-TA/Content/TA_Eocarch/Mushrooms/Mushroom_Crafts/PrimalItemResource_PurpleMushroom.PrimalItemResource_PurpleMushroom",
+                        {
+					"bpPath": "/Eocarcharia-TA/Content/TA_Eocarch/Mushrooms/Mushroom_Crafts/PrimalItemResource_GreenMushroom.PrimalItemResource_GreenMushroom",
 							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 0,
+							"maxQuantityInTerminal": 500,
 							"quantityPerDino": 1,
 							"alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
+                            				"alternateItemsChance": 0.0,
+				                        "alternateItems": [],
+							"comsumesSelectMode": 0,
+							"consumesItemsChance": 0,
+							"consumesItems": []
+                        },
+			{
+					"bpPath": "/Eocarcharia-TA/Content/TA_Eocarch/Mushrooms/Mushroom_Crafts/PrimalItemResource_PurpleMushroom.PrimalItemResource_PurpleMushroom",
+							"maxQuantityPerCycle": 0,
+							"maxQuantityInTerminal": 500,
+							"quantityPerDino": 1,
+							"alternateSelectMode": 0,
+                           		 		"alternateItemsChance": 0.0,
+                            				"alternateItems": [],
 							"comsumesSelectMode": 0,
 							"consumesItemsChance": 0,
 							"consumesItems": []
@@ -616,7 +616,7 @@
         {
         "dinoType": "/TheSunkenWorldAdditions/Assets/Creatures/Bothriolepis/BothriTSW_Character_BP.BothriTSW_Character_BP",
 		"chanceToProduce": 1.0,
-        "produces":
+        	"produces":
             [
                 {
                 "intervalSeconds": 120.0,
@@ -624,13 +624,13 @@
                 "items":
                     [
                         {
-							"bpPath": "/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay",
+					"bpPath": "/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay",
 							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 0,
+							"maxQuantityInTerminal": 2000,
 							"quantityPerDino": 1,
 							"alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
+                            				"alternateItemsChance": 0.0,
+                            				"alternateItems": [],
 							"comsumesSelectMode": 0,
 							"consumesItemsChance": 0,
 							"consumesItems": []
@@ -650,13 +650,13 @@
                 "items":
                     [
                         {
-							"bpPath": "/TheSunkenWorldAdditions/Assets/Blueprints/PrimalItemResources/PrimalItemResource_SeaScales.PrimalItemResource_SeaScales",
+					"bpPath": "/TheSunkenWorldAdditions/Assets/Blueprints/PrimalItemResources/PrimalItemResource_SeaScales.PrimalItemResource_SeaScales",
 							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 0,
+							"maxQuantityInTerminal": 4000,
 							"quantityPerDino": 1,
 							"alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
+                            				"alternateItemsChance": 0.0,
+                            				"alternateItems": [],
 							"comsumesSelectMode": 0,
 							"consumesItemsChance": 0,
 							"consumesItems": []
@@ -669,13 +669,13 @@
                 "items":
                     [
                         {
-							"bpPath": "/TheSunkenWorldAdditions/Assets/Blueprints/PrimalItemConsumables/PrimalItemConsumable_Kelp.PrimalItemConsumable_Kelp",
+					"bpPath": "/TheSunkenWorldAdditions/Assets/Blueprints/PrimalItemConsumables/PrimalItemConsumable_Kelp.PrimalItemConsumable_Kelp",
 							"maxQuantityPerCycle": 0,
 							"maxQuantityInTerminal": 0,
 							"quantityPerDino": 1,
 							"alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
+                            				"alternateItemsChance": 0.0,
+                            				"alternateItems": [],
 							"comsumesSelectMode": 0,
 							"consumesItemsChance": 0,
 							"consumesItems": []
@@ -695,7 +695,7 @@
                 "items":
                     [
                         {
-							"bpPath": "/TheSunkenWorldAdditions/Assets/Weapons/WeapHarpoonUrchin/PrimalItemAmmo_UrchinBolt.PrimalItemAmmo_UrchinBolt",
+					"bpPath": "/TheSunkenWorldAdditions/Assets/Weapons/WeapHarpoonUrchin/PrimalItemAmmo_UrchinBolt.PrimalItemAmmo_UrchinBolt",
 							"maxQuantityPerCycle": 0,
 							"maxQuantityInTerminal": 500,
 							"quantityPerDino": 1,
@@ -714,7 +714,7 @@
                 	"items":
                     [
                         {
-							"bpPath": "/TheSunkenWorldAdditions/Assets/Blueprints/PrimalItemConsumables/PrimalItemConsumable_UrchinRoe.PrimalItemConsumable_UrchinRoe",
+					"bpPath": "/TheSunkenWorldAdditions/Assets/Blueprints/PrimalItemConsumables/PrimalItemConsumable_UrchinRoe.PrimalItemConsumable_UrchinRoe",
 							"maxQuantityPerCycle": 0,
 							"maxQuantityInTerminal": 250,
 							"quantityPerDino": 1,
@@ -740,7 +740,7 @@
                 	"items":
                     [
                         {
-							"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon",
+					"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon",
 							"maxQuantityPerCycle": 0,
 							"maxQuantityInTerminal": 0,
 							"quantityPerDino": 1,
@@ -756,17 +756,15 @@
             ]
         },
         {
-        "dinoType": "/PrehistoricBeasts2/Baculites/BPs/Baculites_Character_BP.Baculites_Character_BP",
+        	"dinoType": "/PrehistoricBeasts2/Baculites/BPs/Baculites_Character_BP.Baculites_Character_BP",
 		"chanceToProduce": 1.0,
-        	"produces":
-            [
-                {
+        	"produces": [
+			{
                 	"intervalSeconds": 240.0,
 			"itemSelectMode": 0,
-                	"items":
-                    [
-                        {
-							"bpPath": "/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil",
+                	"items": [
+                        	{
+					"bpPath": "/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil",
 							"maxQuantityPerCycle": 0,
 							"maxQuantityInTerminal": 0,
 							"quantityPerDino": 1,
