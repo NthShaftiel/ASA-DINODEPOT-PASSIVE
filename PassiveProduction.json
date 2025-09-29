@@ -1120,7 +1120,32 @@
                     ]
                 }
             ]
-        }
+        },
+		{
+        	"dinoType": "/ATScotoharpes/Scotoharpes/Scotoharpes_character_BP.Scotoharpes_character_BP",
+			"chanceToProduce": 1.0,
+        	"produces":[
+            		{
+					"intervalSeconds": 120.0,
+					"itemSelectMode": 0,
+					"items":[
+						{
+							"bpPath": "/ATScotoharpes/Scotoharpes/Items/PrimalItemResource_FerrousDust.PrimalItemResource_FerrousDust",
+							"maxQuantityPerCycle": 0,
+							"maxQuantityInTerminal": 2000,
+							"quantityPerDino": 1,
+							"alternateSelectMode": 0,
+                            "alternateItemsChance": 0.0,
+                            "alternateItems": [],
+							"comsumesSelectMode": 0,
+							"consumesItemsChance": 0,
+							"consumesItems": []
+						}
+					]
+                }
+            ]
+        },
     ]
 }
+
 
