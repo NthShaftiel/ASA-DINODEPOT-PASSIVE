@@ -905,6 +905,222 @@
                     ]
                 }
             ]
-        }  
+        },
+	{
+            "dinoType": "/DragonKingdom/Dragons/ZD1/K_ZaldrirDragon_Character_BP_T1.K_ZaldrirDragon_Character_BP_T1",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 10800,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/DragonKingdom/Dragons/ZD1/Zaldrir_Alpha/PrimalItemConsumable_AlphaDragonTooth_ZD.PrimalItemConsumable_AlphaDragonTooth_ZD",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 5,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "consumesSelectMode": 0,
+                            "consumesItemsChance": 1.0,
+                            "consumesItems": [
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Keratin.PrimalItemResource_Keratin",
+									"quantityPerItem": 150,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								},
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot",
+									"quantityPerItem": 150,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								},
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element",
+									"quantityPerItem": 5,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "dinoType": "/DragonKingdom/Dragons/ZD1/K_ZaldrirDragon_Character_BP_T2.K_ZaldrirDragon_Character_BP_T2",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 10800,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/DragonKingdom/Dragons/ZD1/Zaldrir_Alpha/PrimalItemConsumable_AlphaDragonTooth_ZD.PrimalItemConsumable_AlphaDragonTooth_ZD",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 5,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "consumesSelectMode": 0,
+                            "consumesItemsChance": 1.0,
+                            "consumesItems": [
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Keratin.PrimalItemResource_Keratin",
+									"quantityPerItem": 150,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								},
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot",
+									"quantityPerItem": 150,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								},
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element",
+									"quantityPerItem": 5,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "dinoType": "/DragonKingdom/Dragons/ZD1/K_ZaldrirDragon_Character_BP_T3.K_ZaldrirDragon_Character_BP_T3",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 10800,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/DragonKingdom/Dragons/ZD1/Zaldrir_Alpha/PrimalItemConsumable_AlphaDragonTooth_ZD.PrimalItemConsumable_AlphaDragonTooth_ZD",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 5,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "consumesSelectMode": 0,
+                            "consumesItemsChance": 1.0,
+                            "consumesItems": [
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Keratin.PrimalItemResource_Keratin",
+									"quantityPerItem": 150,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								},
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot",
+									"quantityPerItem": 150,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								},
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element",
+									"quantityPerItem": 5,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "dinoType": "/DragonKingdom/Dragons/ZD1/K_ZaldrirDragon_Character_BP_T4.K_ZaldrirDragon_Character_BP_T4",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 10800,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/DragonKingdom/Dragons/ZD1/Zaldrir_Alpha/PrimalItemConsumable_AlphaDragonTooth_ZD.PrimalItemConsumable_AlphaDragonTooth_ZD",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 5,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "consumesSelectMode": 0,
+                            "consumesItemsChance": 1.0,
+                            "consumesItems": [
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Keratin.PrimalItemResource_Keratin",
+									"quantityPerItem": 150,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								},
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot",
+									"quantityPerItem": 150,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								},
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element",
+									"quantityPerItem": 5,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "dinoType": "/DragonKingdom/Dragons/ZD1/K_ZaldrirDragon_Character_BP_T5.K_ZaldrirDragon_Character_BP_T5",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 10800,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/DragonKingdom/Dragons/ZD1/Zaldrir_Alpha/PrimalItemConsumable_AlphaDragonTooth_ZD.PrimalItemConsumable_AlphaDragonTooth_ZD",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 5,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "consumesSelectMode": 0,
+                            "consumesItemsChance": 1.0,
+                            "consumesItems": [
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Keratin.PrimalItemResource_Keratin",
+									"quantityPerItem": 150,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								},
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot",
+									"quantityPerItem": 150,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								},
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element",
+									"quantityPerItem": 5,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 0
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
+
