@@ -1150,8 +1150,8 @@
 			"chanceToProduce": 1.0,
         	"produces":[
             		{
-					"intervalSeconds": 120.0,
-					"itemSelectMode": 0,
+					"intervalSeconds": 90.0,
+					"itemSelectMode": 2,
 					"items":[
 						{
 							"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone",
@@ -1208,6 +1208,7 @@
         }
     ]
 }
+
 
 
 
