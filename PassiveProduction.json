@@ -1144,9 +1144,71 @@
 					]
                 }
             ]
+        },
+		{
+        	"dinoType": "/Endemics/Dinos/Diplocera/Ceraspis_Character_BP.Ceraspis_Character_BP",
+			"chanceToProduce": 1.0,
+        	"produces":[
+            		{
+					"intervalSeconds": 120.0,
+					"itemSelectMode": 0,
+					"items":[
+						{
+							"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone",
+							"maxQuantityPerCycle": 0,
+							"maxQuantityInTerminal": 2000,
+							"quantityPerDino": 1,
+							"alternateSelectMode": 0,
+                            "alternateItemsChance": 0.0,
+                            "alternateItems": [],
+							"comsumesSelectMode": 0,
+							"consumesItemsChance": 0,
+							"consumesItems": []
+						},
+						{
+							"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Flint.PrimalItemResource_Flint",
+							"maxQuantityPerCycle": 0,
+							"maxQuantityInTerminal": 2000,
+							"quantityPerDino": 1,
+							"alternateSelectMode": 0,
+                            "alternateItemsChance": 0.0,
+                            "alternateItems": [],
+							"comsumesSelectMode": 0,
+							"consumesItemsChance": 0,
+							"consumesItems": []
+						},
+						{
+							"bpPath": "/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sand.PrimalItemResource_Sand",
+							"maxQuantityPerCycle": 0,
+							"maxQuantityInTerminal": 2000,
+							"quantityPerDino": 1,
+							"alternateSelectMode": 0,
+                            "alternateItemsChance": 0.0,
+                            "alternateItems": [
+								{
+									"bpPath": "/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay",
+									"quantityPerItem": 1,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 1000
+								},
+								{
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
+									"quantityPerItem": 1,
+									"maxQuantityPerCycle": 0,
+									"maxQuantityInTerminal": 500
+								}
+							],
+							"comsumesSelectMode": 0,
+							"consumesItemsChance": 0,
+							"consumesItems": []
+						}
+					]
+                }
+            ]
         }
     ]
 }
+
 
 
 
