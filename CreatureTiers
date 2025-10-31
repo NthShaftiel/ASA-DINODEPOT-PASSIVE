@@ -38,6 +38,7 @@
         "extrawildmultiplier": 1,
         "bredupgradechances": [0.999, 0, 0, 0, 0, 0, 0.001, 0],
         "usebredupgradechances": false
+        "disableParticles": true
     },
     {
         "configname": "TerritorialAlpha",
@@ -112,6 +113,7 @@
         "extrawildmultiplier": 1,
         "bredupgradechances": [0.05,0,0.95,0,0,0,0,0],
         "usebredupgradechances": false
+        "disableParticles": true
     },
     {
         "configname": "TerritorialBeta",
@@ -186,6 +188,7 @@
         "extrawildmultiplier": 1,
         "bredupgradechances": [0,0,0.05,0,0.95,0,0,0],
         "usebredupgradechances": false
+        "disableParticles": true
     },
     {
         "configname": "TerritorialGamma",
@@ -260,6 +263,7 @@
         "extrawildmultiplier": 1,
         "bredupgradechances": [0, 0, 0, 0, 0, 0, 0, 0],
         "usebredupgradechances": false
+        "disableParticles": true
     },
     {
         "configname": "TerritorialOmega",
