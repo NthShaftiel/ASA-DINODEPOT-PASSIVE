@@ -484,7 +484,7 @@
                         {
 							"bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_JellyVenom.PrimalItemConsumable_JellyVenom",
 							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 5000,
+							"maxQuantityInTerminal": 2000,
 							"quantityPerDino": 1,
 							"alternateSelectMode": 0,
                             "alternateItemsChance": 0.0,
