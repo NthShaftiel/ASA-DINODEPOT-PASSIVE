@@ -1321,7 +1321,7 @@
 							"bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat_Fish.PrimalItemConsumable_RawMeat_Fish",
 							"maxQuantityPerCycle": 0,
 							"maxQuantityInTerminal": 1200,
-							"quantityPerDino": 3,
+							"quantityPerDino": 5,
 							"alternateSelectMode": 0,
                             "alternateItemsChance": 0.15,
                             "alternateItems": [
