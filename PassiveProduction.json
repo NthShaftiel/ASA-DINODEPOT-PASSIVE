@@ -1318,7 +1318,7 @@
 					"itemSelectMode": 0,
 					"items":[
 						{
-							"bpPath": "/Game/PrimalEarth/CoreBlueprints/Consumeables/PrimalItemConsumable_RawMeat_Fish.PrimalItemConsumable_RawMeat_Fish",
+							"bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat_Fish.PrimalItemConsumable_RawMeat_Fish",
 							"maxQuantityPerCycle": 0,
 							"maxQuantityInTerminal": 1200,
 							"quantityPerDino": 3,
@@ -1326,7 +1326,7 @@
                             "alternateItemsChance": 0.15,
                             "alternateItems": [
 								{
-									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Consumables/PrimalItemConsumable_RawPrimeMeat_Fish.PrimalItemConsumable_RawPrimeMeat_Fish",
+									"bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat_Fish.PrimalItemConsumable_RawPrimeMeat_Fish",
 									"quantityPerItem": 1,
 									"maxQuantityPerCycle": 0,
 									"maxQuantityInTerminal": 400
