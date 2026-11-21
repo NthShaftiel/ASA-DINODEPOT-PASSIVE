@@ -564,80 +564,6 @@
             ]
         },
         {
-        "dinoType": "/Eocarcharia-TA/Content/TA_Eocarch/Eocarcharia_TA_Chartacter_BP_C.Eocarcharia_TA_Chartacter_BP_C",
-		"chanceToProduce": 1.0,
-        	"produces":
-            [
-                {
-                "intervalSeconds": 300.0,
-				"itemSelectMode": 0,
-                "items":
-                    [
-                        {
-					"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
-							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 500,
-							"quantityPerDino": 1,
-							"alternateSelectMode": 0,
-                            				"alternateItemsChance": 0.0,
-                            				"alternateItems": [],
-							"comsumesSelectMode": 0,
-							"consumesItemsChance": 0,
-							"consumesItems": []
-                        },
-			{
-					"bpPath": "/Eocarcharia-TA/Content/TA_Eocarch/Mushrooms/Mushroom_Crafts/PrimalItemResource_RedMushroom.PrimalItemResource_RedMushroom",
-							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 500,
-							"quantityPerDino": 1,
-							"alternateSelectMode": 0,
-                            				"alternateItemsChance": 0.0,
-				                        "alternateItems": [],
-							"comsumesSelectMode": 0,
-							"consumesItemsChance": 0,
-							"consumesItems": []
-                        },
-                        {
-					"bpPath": "/Eocarcharia-TA/Content/TA_Eocarch/Mushrooms/Mushroom_Crafts/PrimalItemResource_BlueMushroom.PrimalItemResource_BlueMushroom",
-							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 500,
-							"quantityPerDino": 1,
-							"alternateSelectMode": 0,
-			                            	"alternateItemsChance": 0.0,
-			                            	"alternateItems": [],
-							"comsumesSelectMode": 0,
-							"consumesItemsChance": 0,
-							"consumesItems": []
-                        },
-                        {
-					"bpPath": "/Eocarcharia-TA/Content/TA_Eocarch/Mushrooms/Mushroom_Crafts/PrimalItemResource_GreenMushroom.PrimalItemResource_GreenMushroom",
-							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 500,
-							"quantityPerDino": 1,
-							"alternateSelectMode": 0,
-                            				"alternateItemsChance": 0.0,
-				                        "alternateItems": [],
-							"comsumesSelectMode": 0,
-							"consumesItemsChance": 0,
-							"consumesItems": []
-                        },
-			{
-					"bpPath": "/Eocarcharia-TA/Content/TA_Eocarch/Mushrooms/Mushroom_Crafts/PrimalItemResource_PurpleMushroom.PrimalItemResource_PurpleMushroom",
-							"maxQuantityPerCycle": 0,
-							"maxQuantityInTerminal": 500,
-							"quantityPerDino": 1,
-							"alternateSelectMode": 0,
-                           		 		"alternateItemsChance": 0.0,
-                            				"alternateItems": [],
-							"comsumesSelectMode": 0,
-							"consumesItemsChance": 0,
-							"consumesItems": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
         "dinoType": "/TheSunkenWorldAdditions/Assets/Creatures/Bothriolepis/BothriTSW_Character_BP.BothriTSW_Character_BP",
 		"chanceToProduce": 1.0,
         	"produces":
@@ -1309,6 +1235,32 @@
                 }
             ]
         },
+        {
+        "dinoType": "/Eocarcharia-TA/Content/TA_Eocarch/Eocarcharia_TA_Chartacter_BP_C.Eocarcharia_TA_Chartacter_BP_C",
+		"chanceToProduce": 1.0,
+        	"produces":
+            [
+                {
+                "intervalSeconds": 300.0,
+				"itemSelectMode": 0,
+                "items":
+                    [
+						{
+							"bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
+							"maxQuantityPerCycle": 0,
+							"maxQuantityInTerminal": 250,
+							"quantityPerDino": 5,
+							"alternateSelectMode": 0,
+                            "alternateItemsChance": 0.0,
+                            "alternateItems": [],
+							"comsumesSelectMode": 0,
+							"consumesItemsChance": 0,
+							"consumesItems": []	
+						}
+					]
+				}	
+			]
+		},	
 		{
         	"dinoType": "/TheSunkenWorldAdditions/Assets/Creatures/SunFish/SunfishTSW_Character_BP.SunfishTSW_Character_BP",
 			"chanceToProduce": 1.0,
